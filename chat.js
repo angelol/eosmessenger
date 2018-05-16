@@ -5,7 +5,7 @@ var peerConn;
 var dataChannel;
 var user = {};
 var sessions = {};
-var dev = true;
+var dev = false;
 $(function() {
     init();
 });
