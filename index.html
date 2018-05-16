@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	
+		<link href="chat.css" rel="stylesheet" />
+		
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="eos.js"></script>
+        <script src="eos-common.js"></script>
+        <script src="session.js"></script>
+        <script src="chat.js"></script>
+
+    </head>
+    <body>
+
+        <form class="recipient">
+          <label>How do you want to chat with today?<input name="recipient"></input><button type="submit">Start</button>
+        </form>
+		<div class="chatlog">
+        </div>        
+
+        <form class="message">
+          <input name="message"></input>
+          <button type="submit">Send</button>
+        </form>
+
+    </body>
+</html>

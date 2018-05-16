@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ -z "$NODEOS_HOST" ]; then
+    NODEOS_HOST="http://localhost"
+fi
+
+/usr/bin/env cleos -u $NODEOS_HOST --wallet-url $NODEOS_HOST $@

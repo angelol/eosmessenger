@@ -1,0 +1,16 @@
+.theirs {
+    text-align:left;
+}
+
+.ours {
+    text-align:right;
+}
+
+.chatlog {
+    max-height:200px;
+    margin-top:20px;
+    margin-left: 20px;
+    margin-right:20px;
+    margin-bottom:40px;
+    overflow:scroll;
+}
