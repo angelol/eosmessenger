@@ -22,7 +22,7 @@ function init() {
     console.log("Not logged in");
     show_login();
   }
-  eos = Eos.Localnet({keyProvider: [user.pk], httpEndpoint: httpEndpoint});
+  eos = Eos({keyProvider: [user.pk], httpEndpoint: httpEndpoint, chainId: chainId});
 
   RTCPeerConnection = window.RTCPeerConnection || webkitRTCPeerConnection || mozRTCPeerConnection;
   peerConn = new RTCPeerConnection({'iceServers': [{'urls': ['stun:stun.l.google.com:19302']}]});
